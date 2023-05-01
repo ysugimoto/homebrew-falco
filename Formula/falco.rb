@@ -1,5 +1,5 @@
 class Falco < Formula
-  desc "VCL parser and linter command which optimized for Fastly"
+  desc "VCL parser and linter optimized command for Fastly"
   homepage "https://github.com/ysugimoto/falco"
   version "0.20.2"
   license "MIT"

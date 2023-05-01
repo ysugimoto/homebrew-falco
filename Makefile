@@ -7,8 +7,8 @@ generate:
 		echo "Please specify release version with 'make version=[VERSION]'";\
 		exit 1;\
 	fi
-	VERSION=${RELEASE_VERSION} envsubst < ./template/falco.rb > ./Fomula/falco.rb
+	VERSION=${RELEASE_VERSION} envsubst < ./template/falco.rb > ./Formula/falco.rb
 
 clean:
-	rm ./Fomula/falco.rb
+	rm ./Formula/falco.rb
 
